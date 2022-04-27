@@ -1,0 +1,31 @@
+nav{  
+  display:flex;
+  justify-content:flex-end;
+}
+
+P{
+    font-size: 2rem;
+    padding:1rem;  
+    color:  black;  
+    font-weight: 700;
+    cursor: pointer;
+
+
+}
+.dim {
+    opacity: 1;
+    transition: opacity .15s ease-in;
+    
+  }
+  .dim:hover,
+  .dim:focus {
+    opacity: .5;
+    transition: opacity .15s ease-in;
+  }
+
+.links{
+    text-decoration:underline;
+    transition: color .15s ease-in;
+    color:#d114b8
+}
+

@@ -1,0 +1,98 @@
+.form {
+  width: 700px;
+  background-image: linear-gradient(
+      30deg,
+      #9fc0cd 12%,
+      transparent 12.5%,
+      transparent 87%,
+      #5f97be 87.5%,
+      #5f97be
+    ),
+    linear-gradient(
+      150deg,
+      #0a60aa 12%,
+      transparent 15%,
+      transparent 87%,
+      #0a60aa 87.5%,
+      #0a60aa
+    ),
+    linear-gradient(
+      30deg,
+      #0a60aa 12%,
+      transparent 12.5%,
+      transparent 87%,
+      #0a60aa 87.5%,
+      #5f97be
+    ),
+    linear-gradient(
+      150deg,
+      #0a60aa 12%,
+      transparent 12.5%,
+      transparent 87%,
+      #0a60aa 87.5%,
+      #445
+    ),
+    linear-gradient(
+      60deg,
+      #9fc0cd 25%,
+      transparent 25.5%,
+      transparent 75%,
+      #9fc0cd 75%,
+      #9fc0cd
+    ),
+    linear-gradient(
+      60deg,
+      #9fc0cd 25%,
+      transparent 25.5%,
+      transparent 75%,
+      #9fc0cd 75%,
+      #9fc0cd
+    );
+  background-size: 80px 140px;
+  background-position: 0 0, 0 0, 40px 70px, 40px 70px, 0 0, 40px 70px;
+}
+
+p {
+  font-size: 1.5rem;
+}
+.input {
+  font-size: 1.25rem;
+  padding: 0.5rem;
+  width: 70%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+button {
+  font-size: 1.25rem;
+  width: 30%;
+  padding-left: 0.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  display: inline-block;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  color: #fff;
+  background-color: #00449e;
+}
+
+.grow {
+  -moz-osx-font-smoothing: grayscale;
+  backface-visibility: hidden;
+  transform: translateZ(0);
+  transition: transform 0.25s ease-out;
+}
+
+.grow:hover,
+.grow:focus {
+  transform: scale(1.05);
+}
+
+.styling {
+  padding: 2rem;
+  border-radius: 0.5rem;
+    
+  margin-bottom: 20px;
+}
