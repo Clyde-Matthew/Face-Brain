@@ -44,7 +44,7 @@ class SignIn extends React.Component{
     return (
 <div className="art ">       
 <main className="main">
-  <form className="singIn">
+  <div className="singIn">
     <fieldset id="sign_up" className="signUp">
       <legend className="legend">Sign In</legend>
       <div className="mt">
@@ -62,7 +62,7 @@ class SignIn extends React.Component{
     <div className="logIn">
       <p onClick={()=>onRouteChange('register')} className="text link">Register</p>
     </div>
-  </form>
+  </div>
 </main>
 </div>
     );
