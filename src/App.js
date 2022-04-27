@@ -72,7 +72,7 @@ function App(props) {
 
   const onPictureSubmit = () => {
     setImageUrl({ imageUrl: input });
-    fetch("http://localhost:3000/imageurl", {
+    fetch("https://facebrain-face-detection-app.herokuapp.com/imageurl", {
       method: "post",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({
@@ -82,7 +82,7 @@ function App(props) {
     .then((response) => response.json())
         .then((response) => {
         if (response) {
-          fetch("http://localhost:3000/image", {
+          fetch("https://facebrain-face-detection-app.herokuapp.com/image", {
             method: "put",
             headers: { "Content-Type": "application/json" },
             body: JSON.stringify({
