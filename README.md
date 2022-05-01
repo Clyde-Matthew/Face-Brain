@@ -1,3 +1,11 @@
+**How to use the app.**
+
+Just register with email and password, and account will be created and you will be taken to the home page.
+You will need to remeber your password for future use.
+Once logging in , just copy the image url of a picture, paste it into the input box and click detect.
+The app will detect any faces in the picture and place a box around them.
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
