@@ -66,3 +66,12 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `npm run build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+
+
+
+How to use the app.
+
+Just register with email and password, and account will be created and you will be taken to the home page.
+You will need to remeber your password for future use.
+Once logging in , just copy the image url of a picture, paste it into the input box and click detect.
+The app will detect any faces in the picture and place a box around them.
